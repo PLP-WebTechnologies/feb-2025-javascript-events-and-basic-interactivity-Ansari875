@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Event Handling & Interactive Elements</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Interactive JavaScript Playground</h1>
+
+  <!-- Button that changes text and color -->
+  <button id="myButton">Click me</button>
+
+  <hr>
+
+  <!-- Hover effect -->
+  <button id="hoverButton">Hover over me</button>
+
+  <hr>
+
+  <!-- Image Gallery -->
+  <h2>Image Gallery</h2>
+  <img id="galleryImage" src="image1.jpg" alt="Gallery Image" width="300">
+  <button id="nextButton">Next Image</button>
+
+  <hr>
+
+  <!-- Accordion-style Content -->
+  <div class="accordion">Section 1</div>
+  <div class="panel">
+    <p>Content for Section 1</p>
+  </div>
+
+  <div class="accordion">Section 2</div>
+  <div class="panel">
+    <p>Content for Section 2</p>
+  </div>
+
+  <hr>
+
+  <!-- Form with Validation -->
+  <form id="myForm">
+    <label for="emailInput">Email:</label>
+    <input type="email" id="emailInput" required>
+    <br><br>
+    <label for="passwordInput">Password:</label>
+    <input type="password" id="passwordInput" required>
+    <span id="passwordFeedback"></span>
+    <br><br>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
